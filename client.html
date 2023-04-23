@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MMM</title>
+
+    <!--====== fontawsome Icon ======-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--====== Bootstrap CSS ======-->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+    <!--====== Owl Carousel ======-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--====== Style CSS ======-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--====== AOS Animation CSS ======-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="css/owl.carousel.min.css"> -->
+
+</head>
+
+<body>
+
+    <!--Contact Modal -->
+    <div class="modal-section">
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Reach Us!</h5>
+
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+
+
+                    <div class="modal-body">
+                        <div class="modal-desc">
+                            <P>Reach out to the UAE’s most reliable Digital Makerting services.</P>
+                        </div>
+                        <form>
+                            <div class="row g-2 row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2">
+                                <div class="mb-3 col input-group-sm">
+                                    <label for="customer-name" class="form-label">Name</label>
+                                    <input type="text" class="form-control" placeholder="enter your full name"
+                                        id="customer-name">
+                                </div>
+                                <div class="mb-3 col input-group-sm">
+                                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="enter your emal">
+                                </div>
+                                <div class="mb-3 col input-group-sm">
+                                    <label for="exampleFormControlnumber" class="form-label">Phone Number</label>
+                                    <input type="text" class="form-control" id="exampleFormControlnumber"
+                                        placeholder="enter your number">
+                                </div>
+                                <div class="mb-3 col input-group-sm">
+                                    <label for="exampleDataList" class="form-label">Select Service Type</label>
+                                    <input class="form-control" list="datalistOptions" id="exampleDataList"
+                                        placeholder="Type to search...">
+                                    <datalist id="datalistOptions">
+                                        <option value="Marketing Management">
+                                        <option value="Media Buying Services">
+                                        <option value="Branding">
+                                        <option value="Social Media Marketing">
+                                        <option value="Advertising Campaigns">
+                                        <option value="Promotions">
+                                        <option value="Media Buying Services">
+                                        <option value=" Digital Marketing Campaigns">
+                                        <option value="Marketing Events">
+                                        <option value="Corporate Events">
+                                        <option value="On Ground Promotions">
+                                        <option value="Marketing Concept Development">
+                                        <option value=" Above The Line Marketing">
+                                        <option value="Graphics Design">
+                                        <option value="Business To Business Events">
+                                        <option value="Exhibitions">
+                                        <option value="Entertainment Events">
+                                        <option value="Food Trucks">
+                                        <option value="Videography Services">
+                                        <option value="Stand Building And Pop Ups">
+                                        <option value="Ad Shoots">
+                                        <option value="Brand Ambassadors">
+                                        <option value="Promoters Services">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    </datalist>
+                                </div>
+                                <div class="mb-3 col-12">
+                                    <label for="message-text" class="col-form-label">Message:</label>
+                                    <textarea class="form-control" id="message-text"></textarea>
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+                    <div class="modal-footer" data-aos="zoom-out-up">
+                        <button type="button" class="btn btn-secondary cl-btn" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary sm-btn">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Contact modal -->
+
+    <!-- top menu section Start-->
+    <div class="top-bar-section py-1">
+        <div class="top-bar container">
+
+            <div class="row">
+                <div class="col">
+                    <div class="contact-link">
+                        <span class="email">
+                            <span class="text-white"><a href="mailto:info@motivemarketing.ae"><i class="fa fa-envelope"
+                                        aria-hidden="true"></i>info@motivemarketing.ae</a></span>
+                        </span>
+                        <span class="phone">
+                            <span class="text-white"><a href="tel:+971 4 348 0442"><i class="fa fa-phone"
+                                        aria-hidden="true"></i>+971 4 348 0442</a></span>
+                        </span>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="social-link">
+                        <div class="icon-wrap">
+                            <a href="https://www.instagram.com/ikrammaddy/"><span><i class="fa fa-instagram" aria-hidden="true"></i></span></a>
+                            <a href="#"><span><i class="fa fa-facebook" aria-hidden="true"></i></span></a>
+                            <a href="#"><span><i class="fa fa-linkedin" aria-hidden="true"></i></span></a>
+                            <a href="#"><span><i class="fa fa-twitter" aria-hidden="true"></i></span></a>
+                            <a href="#"><span><i class="fa fa-youtube-play" aria-hidden="true"></i></span></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- top menu section End-->
+
+
+    <!-- Main Menu Section Start-->
+    <div class="main-menu-section">
+        <nav class="navbar navbar-expand-lg bg-light header">
+            <div class="container ">
+                <a class="navbar-brand logo" href="index.html"><img src="source/logo.png" alt=""></a>
+                <button class="navbar-toggler" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                    <span class="navbar-toggler-icon">
+                        <i class="fa fa-bars" aria-hidden="true"></i>
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="index.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="about.html">ABOUT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="service.html">SERVICES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="client.html">OUR CLIENTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="contact.html">CONTACT</a>
+                        </li>
+
+
+                    </ul>
+
+                    <div class="d-flex">
+                        <button class="btn custom-btn" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                            data-bs-whatever="@getbootstrap">
+                            Get an Estimation</button>
+                        </form>
+                    </div>
+                </div>
+        </nav>
+
+
+<!-- mobile menu -->
+
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+  <div class="offcanvas-header">
+    <a class="navbar-brand logo" href="#"><img src="source/logo.png" alt=""></a>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+
+    <div class="dropdown mt-3">
+     
+      <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">HOME</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">ABOUT US</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">SERVICES</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">OUR CLIENTS</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">CONTACT</a>
+        </li>
+
+
+    </ul>
+    <div class="m-btn">
+        <button class="btn custom-btn" data-bs-toggle="modal" data-bs-target="#exampleModal"
+            data-bs-whatever="@getbootstrap">
+            Get an Estimation</button>
+        </form>
+    </div>
+    <div class="social-icon mt-3">
+        <ul>
+            <li>
+                <a class="insta" href="https://www.instagram.com/ikrammaddy/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </li>
+            <li>
+                <a class="facebook" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            </li>
+            <li>
+                <a class="twitter" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            </li>
+            <li>
+                <a class="linkedin" href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            </li>
+            <li>
+                <a class="youtube" href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+            </li>
+        </ul>
+    </div>
+    </div>
+  </div>
+</div>
+<!-- mobile menu -->
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Main Section End-->
+
+    <!-- Footer Section Start-->
+    <div class="footer-section container mb-5">
+        <div class="footer-wrap">
+            <div class="row row-cols-2 row-cols-sm-1 row-cols-lg-4 row-cols-md-4">
+                <div class="col" data-aos="fade-up">
+                    <div class="logo">
+                        <a href="#"><img src="source/logo.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="contact mt-3" data-aos="fade-up">
+                        <div class="header">
+                            <h3>Contact Info</h3>
+                        </div>
+                        <ul>
+                            <li> <span class="contact-icon"><i class="fa fa-globe" aria-hidden="true"></i></span><a
+                                    href="#">2nd Floor, Office #13, Crystal
+                                    Building,
+                                    Beside ADCB Metro
+                                    Station,
+                                    Al Karama , Dubai, UAE</a>
+
+                            </li>
+                            <li>
+                                <span class="contact-icon"><i class="fa fa-envelope" aria-hidden="true"></i></span> <a
+                                    href="mailto:info@motivemarketing.ae">info@motivemarketing.ae</a>
+                            </li>
+                            <li>
+                                <span class="contact-icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                                <p> <a href="tel:+971561676455">+971 56 1676455,</a>
+                                    <a href="tel:+97158580 5321">+971 58 580 5321,</a>
+                                    <a href="tel:+97143480442">+971 4 348 0442</a>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="company mt-3" data-aos="fade-up">
+                        <div class="header">
+                            <h3>Company</h3>
+                        </div>
+                        <ul>
+                            <li>
+                                <a href="#"> Home</a>
+                            </li>
+                            <li>
+                                <a href="#">About Us</a>
+
+                            </li>
+                            <li>
+                                <a href="#">Services</a>
+                            </li>
+                            <li>
+                                <a href="#">Clients</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="social-icon mt-3" data-aos="fade-up">
+                        <div class="header">
+                            <h3>Follow us</h3>
+                        </div>
+                        <ul>
+                            <li>
+                                <a class="insta" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                            </li>
+                            <li>
+                                <a class="facebook" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            </li>
+                            <li>
+                                <a class="twitter" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            </li>
+                            <li>
+                                <a class="linkedin" href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            </li>
+                            <li>
+                                <a class="youtube" href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer Section End-->
+
+    <!-- Copyrights section Start-->
+    <div class="copyright-section py-1 mb-1">
+        <div class="top-bar container">
+
+            <div class="row">
+                <div class="col">
+                    <p>Copyright ©️ 2022 MOTIVE MARKETING MANAGEMENT CO. LLC — All rights reserved.</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+    <!-- Copyrights section End-->
+    <!-- Scroll up btn -->
+    <a href="#" class="to-top" data-aos="fade-up">
+        <i class="fa fa-angle-double-up" aria-hidden="true"></i>
+      </a>
+<!-- Scroll up btn -->
+    <!-- whatsapp link -->
+   
+    <a data-aos="zoom-out" href="https:/wa.me/971562959118"  target="_blank" class="whatsapp_float"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+    <!-- whatsapp link -->
+    
+
+
+    <script src="js/main.js"></script>
+
+    <!--====== Main js ======-->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script> -->
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!--====== Jquery ======-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+        integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!--====== Owl Carousel JS ======-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: false,
+            nav: true,
+            margin: 16,
+            autoplay: true,
+            responsive: {
+                0: {
+                    items: 2
+                },
+                600: {
+                    items: 2
+                },
+                720: {
+                    items: 2
+                },
+                920: {
+                    items: 3
+                },
+                1200: {
+                    items: 4
+                },
+                1440: {
+                    items: 4
+
+                }
+            }
+        })
+    </script>
+    <!--====== AOS Animation JS ======-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+        })
+    </script>
+
+<!-- Scroll up -->
+    <script>
+        const toTop = document.querySelector(".to-top");
+
+window.addEventListener("scroll", () => {
+  if (window.pageYOffset > 100) {
+    toTop.classList.add("active");
+  } else {
+    toTop.classList.remove("active");
+  }
+})
+    </script>
+
+
+
+<script type="text/javascript">
+    window.addEventListener("scroll", function(){
+    var nav = document.querySelector("nav");
+    nav.classList.toggle("sticky", window.scrollY > 0);
+    })
+</script>    
+
+
+</body>
+
+</html>

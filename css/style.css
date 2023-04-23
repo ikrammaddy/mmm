@@ -1,0 +1,1059 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@300;400;500;600;700;800;900&family=Poppins&family=Sacramento&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Montserrat", Helvetica, sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+.cpt {
+  padding-top: 80px;
+}
+.btn:focus {
+  border-color: none;
+  box-shadow: none;
+}
+
+/* top section Start */
+.top-bar-section {
+  background: linear-gradient(50deg, transparent 50%, #1778f2 50%) right
+      no-repeat,
+    linear-gradient(50deg, #040430, #040430) 0 0 no-repeat;
+}
+.top-bar-section .contact-link a {
+  text-decoration: none;
+  color: #ffff;
+  font-size: 14px;
+  font-weight: 400;
+}
+.top-bar-section .contact-link span {
+  margin-right: 1.8rem;
+}
+.top-bar-section .contact-link span i {
+  margin-right: 0.6rem;
+}
+.top-bar-section .social-link .icon-wrap a {
+  color: #ffff;
+  margin-left: 1rem;
+  transition: 0.5s;
+}
+.top-bar-section .social-link .icon-wrap a:hover {
+  color: #616161;
+}
+.top-bar-section .social-link .icon-wrap {
+  text-align: end;
+}
+
+/* top menu section End */
+/* Menu Section Start */
+.main-menu-section .logo img {
+  height: 37px;
+}
+
+.main-menu-section .custom-btn {
+  background-color: #1778f2;
+  color: #ffff;
+  border-radius: 5px;
+  padding: 5px 25px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.5s;
+  width: max-content;
+}
+.main-menu-section .custom-btn:hover {
+  background-color: #040430;
+  padding: 5px 20px;
+}
+.main-menu-section .nav-item a {
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.5s;
+}
+.main-menu-section .nav-item .active {
+  color: #1778f2;
+}
+.main-menu-section .nav-item a:hover {
+  color: #1778f2;
+}
+.navbar-toggler-icon i {
+  line-height: 1.5;
+}
+.main-menu-section .navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.main-menu-section .m-btn {
+  text-align: center;
+}
+.main-menu-section .offcanvas-body .navbar-nav {
+  text-align: center;
+}
+.main-menu-section .offcanvas-body .navbar-nav .nav-item {
+  margin-bottom: 5px;
+}
+.main-menu-section .social-icon ul {
+  list-style: none;
+  text-align: center;
+  justify-content: center;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  transition: 0.5s;
+}
+nav.sticky {
+  position: fixed;
+  top: 0;
+  box-shadow: 0px 5px 8px -5px rgba(0, 0, 0, 0.1);
+  transition: 0.5s;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+/* Menu Section End */
+/* Hero Section Start*/
+.banner {
+  background-image: url("../source/marketing-1.png"),
+    linear-gradient(
+      to right,
+      rgb(4, 4, 48, 0.8),
+      rgb(4, 4, 48, 0.6),
+      rgb(23, 120, 242, 0.3),
+      rgb(23, 120, 242, 0.1)
+    );
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #f1f1f1;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+}
+.banner.custom-btn {
+  background-color: #1778f2;
+  color: #ffff;
+  border-radius: 5px;
+  padding: 5px 25px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.5s;
+  width: max-content;
+}
+.btn-success {
+  background-color: #1778f2 !important;
+  color: #ffff;
+  border-radius: 5px;
+  padding: 5px 25px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.5s;
+  border-color: none !important;
+  border: none;
+  min-width: fit-content;
+}
+.btn-success:focus {
+  border-color: none !important;
+  box-shadow: none !important;
+}
+.banner .btn-success:hover {
+  background-color: #040430 !important;
+  padding: 5px 20px;
+}
+.banner h1 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #ffff;
+  margin-bottom: 1.25rem;
+  max-width: 420px;
+}
+.banner p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffff;
+  margin-bottom: 1.5rem;
+  max-width: 500px;
+}
+.banner .btn-sect {
+  display: flex;
+  align-items: center;
+}
+.banner .btn-sect p {
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+.banner .btn-sect p .pen-icon {
+  font-size: 24px;
+  margin-right: 16px;
+}
+.banner .btn-sect p .dis-text {
+  font-size: 10px;
+  max-width: 190px;
+}
+.banner .btn-sect button {
+  margin-right: 16px;
+}
+/* Hero Section End */
+
+/* Main Section Start */
+
+/* Why poeple Choose us section Start */
+
+.badge {
+  background-color: #eff6ff;
+  color: #1778f2;
+  padding: 10px 16px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.choose-us-section .card {
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px 3px rgba(221, 236, 255, 1);
+  border: none;
+  transition: 0.5s;
+}
+.choose-us-section .card:hover {
+  background-color: #040430;
+}
+.choose-us-section .card:hover .icon svg {
+  fill: #ffff;
+}
+.choose-us-section .card:hover .card-title {
+  color: #ffff;
+}
+.choose-us-section .card:hover .card-text {
+  color: #1778f2;
+}
+.choose-us-section .card .card-body {
+  padding: 0;
+}
+.icon {
+  text-align: center;
+  padding-bottom: 1.25rem;
+}
+.icon svg {
+  fill: #1778f2;
+  width: 80px;
+  text-align: center;
+}
+.choose-us-section .card-body {
+  text-align: center;
+}
+.choose-us-section .card-body .card-title {
+  font-size: 45px;
+  font-weight: 500;
+  color: #1778f2;
+  padding-bottom: 1.25rem;
+  margin: 0;
+}
+.counter {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  align-items: baseline;
+  justify-content: center;
+  padding: 0;
+}
+.counter {
+  font-size: 45px;
+  font-weight: 500;
+  color: #1778f2;
+  padding-bottom: 1.25rem;
+  margin: 0;
+}
+.choose-us-section .card-body .card-text {
+  font-size: 18px;
+  font-weight: 500;
+  color: #616161;
+}
+/* Why poeple Choose us section End */
+
+/* About us section Start */
+.about-us-wrap img {
+  height: 375px;
+  border-radius: 10px;
+}
+
+.custom-col {
+  background-image: url("../source/aboutus.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+  border-radius: 10px;
+}
+
+.about-us-section .header {
+  font-size: 24px;
+  color: #040430;
+  font-weight: 600;
+  line-height: 1.5;
+  padding-bottom: 10px;
+}
+.about-us-section .text {
+  font-size: 16px;
+  color: #616161;
+  font-weight: 400;
+  line-height: 1.5;
+  padding-bottom: 10px;
+}
+.text-section-wrap {
+  padding-left: 1.8rem;
+}
+.about-us-section .c-col {
+  display: flex;
+  align-items: center;
+}
+
+.about-us-section .custom-btn {
+  background-color: #1778f2;
+  color: #ffff;
+  border-radius: 5px;
+  padding: 5px 25px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.5s;
+  width: max-content;
+}
+
+.about-us-section .custom-btn:hover {
+  background-color: #040430;
+  padding: 5px 20px;
+}
+
+/* About us section End */
+
+/* Our serives section Start */
+.our-services-section .cu-header {
+  text-align: center;
+}
+.our-services-section .header {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.services .card {
+  padding: 30px 20px;
+  border: 0;
+  border-bottom: solid 5px#1778f2;
+  border-radius: 10px 10px 0px 0px;
+  box-shadow: 1px 1px 10px 3px rgba(221, 236, 255, 1);
+}
+.services .card-body {
+  padding: 0;
+  text-align: center;
+}
+.services .card .custom-btn {
+  border-radius: 5px;
+  border: solid 1px #1778f2;
+  font-size: 1rem;
+  color: #1778f2;
+  padding: 5px 25px;
+  margin-top: 10px;
+  text-align: center;
+  transition: 0.5s;
+  width: max-content;
+}
+.services .card .custom-btn:hover {
+  border-radius: 5px;
+  border: solid 1px #040430;
+  background: #040430;
+  font-size: 1rem;
+  color: #ffff;
+  padding: 5px 20px;
+  margin-top: 10px;
+  text-align: center;
+}
+.services .icon svg {
+  fill: #1778f2;
+  width: 60px;
+  text-align: center;
+  stroke: #1778f2;
+}
+.services .card-title {
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 16px;
+  max-height: 64px;
+  min-height: 64px;
+}
+.services .card-text {
+  font-size: 16px;
+  color: #616161;
+  font-weight: 400;
+  text-align: justify;
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.owl-carousel .owl-stage-outer {
+  padding: 10px 0;
+  position: relative;
+  overflow: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+}
+.service-btn {
+  text-align: center;
+  margin: auto;
+}
+.service-btn .custom-btn {
+  text-align: center;
+  border-radius: 5px;
+  background: #1778f2;
+  font-size: 1rem;
+  color: #ffff;
+  padding: 5px 25px;
+  margin-top: 10px;
+  text-align: center;
+  transition: 0.5s;
+  width: max-content;
+}
+.service-btn .custom-btn:hover {
+  background: #040430;
+  padding: 5px 20px;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+  border: 1px solid #1778f2;
+  background: 0;
+}
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: #1778f2;
+}
+.caro .owl-nav .owl-prev {
+  display: none !important;
+}
+.caro .owl-nav .owl-next {
+  display: none !important;
+}
+.owl-theme .owl-dots {
+  margin-top: 10px;
+}
+/* Our serives section End */
+
+/* Our clients section Start */
+.client-section {
+  padding-top: 80px;
+}
+.client-section .cu-header {
+  text-align: center;
+}
+.client-section .cu-header span {
+  background: #0404308f;
+  color: #ffff;
+  padding: 6px 16px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.client-section .client-wrapper {
+  background: #eff6ff;
+  border-radius: 10px;
+  padding: 60px 60px;
+}
+/* .client{
+  background: #616161;
+} */
+.client-section .client img {
+  height: 60px;
+  display: block;
+  margin: auto;
+  width: 100px;
+}
+/* Our clients section End */
+
+/* What we do section Start */
+.badge {
+  background-color: #eff6ff;
+  color: #1778f2;
+  padding: 6px 16px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.what-we-do-section .header h1 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.what-we-do-section .cu-header {
+  text-align: center;
+}
+.what-we-do-section .do-top hr {
+  width: 30%;
+  background: #1778f2;
+  height: 3px;
+  margin-right: 1rem;
+  margin-bottom: -5px;
+}
+.what-we-do-section .do-top span {
+  color: #1778f2;
+  font-size: 50px;
+  font-weight: 500;
+  font-family: "poppins";
+}
+.what-we-do-section .do-top {
+  display: flex;
+  align-items: center;
+}
+.what-we-do-section p .span {
+  font-size: 16px;
+  color: #000;
+  font-weight: 600;
+}
+.what-we-do-section p {
+  font-size: 16px;
+  color: #616161;
+  text-align: justify;
+}
+.what-we-do-section .cm {
+  margin-top: 2rem;
+}
+/* What we do section End */
+
+/* Contact us section Start */
+.contact-us-section .contact-wrap {
+  background: #040430;
+  border-radius: 10px;
+  padding: 40px;
+}
+.contact-us-section .contact-wrap .cu-header {
+  text-align: center;
+}
+.contact-us-section .contact-wrap .cu-header span {
+  background: #eff6ff;
+  color: #1778f2;
+}
+.contact-us-section .contact-wrap .header {
+  color: #ffff;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.contact-us-section .contact-wrap .header h1 {
+  font-size: 36px;
+  font-weight: 600;
+}
+.contact-us-section .contact-wrap p {
+  color: #ffff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+.contact-us-section .contact-wrap button {
+  background: #040430;
+  border: solid 1px #1778f2;
+  color: #1778f2;
+  padding: 5px 25px;
+  margin-top: 10px;
+  text-align: center;
+  transition: 0.5s;
+  border-radius: 5px;
+  width: max-content;
+}
+.contact-us-section .contact-wrap button:hover {
+  background: #1778f2;
+  border: solid 1px #1778f2;
+  color: #ffff;
+  padding: 5px 20px;
+}
+.contact-us-section .contact-wrap .contact-btn {
+  text-align: center;
+}
+.contact-us-section .c-hr {
+  background: #177af247;
+  height: 1px;
+  margin: 4rem 0;
+}
+
+/* Contact us section End */
+
+/* Main Section End */
+
+/* Footer Section Start */
+.footer-wrap .logo img {
+  width: 160px;
+  margin: auto;
+}
+.footer-wrap .header h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #040430;
+}
+.footer-section ul {
+  list-style: none;
+  margin: 0;
+  padding: 0px;
+  overflow: hidden;
+}
+.footer-section ul li a {
+  text-decoration: none;
+  color: #616161;
+}
+
+.footer-section ul li {
+  /* background: #000; */
+  margin: 8px 0px;
+}
+.footer-section .contact-icon {
+  color: #616161;
+  font-size: 16px;
+  padding-right: 10px;
+}
+.footer-section .contact li {
+  display: flex;
+}
+.social-icon ul {
+  display: flex;
+}
+/* .social-icon ul li {
+  margin-right: 16px;
+} */
+.social-icon ul li a {
+  font-size: 20px;
+  color: #616161;
+  transition: 0.5s;
+  padding: 4px 10px;
+  border-radius: 40%;
+  margin-right: 10px;
+}
+.social-icon ul li a:hover {
+  background: #040430;
+  color: #ffffff;
+}
+.contact ul li a,
+.company ul li a {
+  transition: 0.5s;
+}
+.contact ul li a:hover,
+.company ul li a:hover {
+  color: #1778f2;
+}
+/* Footer Section End */
+
+/* Copyrights section Start */
+.copyright-section {
+  background: linear-gradient(50deg, transparent 50%, #040430 50%) right
+      no-repeat,
+    linear-gradient(50deg, #1778f2, #1778f2) 0 0 no-repeat;
+}
+.copyright-section .top-bar p {
+  font-size: 15px;
+  color: #ffff;
+  font-weight: 500;
+  text-align: center;
+  margin: 5px 0;
+}
+/* Copyrights section End */
+
+/* Modal */
+.modal-section .modal-header {
+  border-bottom: solid 1px #177af268;
+}
+
+.modal-section .modal-header .modal-title {
+  font-size: 22px;
+  font-weight: 500;
+  color: #1778f2;
+}
+.modal-section .modal-desc p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #040430;
+  line-height: 1.2;
+  margin-bottom: 24px;
+}
+
+.modal-body label {
+  font-size: 15px;
+  color: #000;
+  margin-bottom: 5px;
+}
+.modal-section .modal-content {
+  border-bottom: 5px solid #1778f2;
+}
+.modal-section .modal-content .cl-btn {
+  border: solid 1px #1778f2;
+  padding: 5px 25px;
+  margin-top: 10px;
+  text-align: center;
+  transition: 0.5s;
+  border-radius: 5px;
+  width: max-content;
+  font-size: 15px;
+  background: #fff;
+  color: #1778f2;
+}
+.modal-section .modal-content .sm-btn {
+  background: #1778f2;
+  color: #fff;
+  padding: 5px 25px;
+  margin-top: 10px;
+  text-align: center;
+  transition: 0.5s;
+  border-radius: 5px;
+  width: max-content;
+  font-size: 15px;
+}
+.modal-section .modal-content .cl-btn:hover {
+  border: solid 1px red;
+  padding: 5px 20px;
+  color: #fff;
+  background: red;
+}
+.modal-section .modal-content .sm-btn:hover {
+  background: #040430;
+  color: #fff;
+  padding: 5px 20px;
+}
+/* modal */
+
+/* Whatsapp Chat */
+.whatsapp_float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 30px;
+  left: 40px;
+  background-color: #fff;
+  color: #25d366;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 40px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+  transition: 0.5s;
+}
+.whatsapp_float:hover {
+  background-color: #25d366;
+  color: #fff;
+}
+.whatsapp-icon {
+  margin-top: 16px;
+}
+
+/* for mobile */
+@media screen and (max-width: 767px) {
+  .whatsapp-icon {
+    margin-top: 10px;
+  }
+  .whatsapp_float {
+    width: 40px;
+    height: 40px;
+    bottom: 30px;
+    right: 10px;
+    font-size: 28px;
+  }
+}
+/* Whatsapp Chat */
+
+/* Scroll up */
+/* Scroll up */
+.to-top {
+  background: #eff6ff;
+  position: fixed;
+  bottom: 16px;
+  right: 32px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  color: #1f1f1f;
+  text-decoration: none;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.4s;
+}
+
+.to-top.active {
+  bottom: 32px;
+  pointer-events: auto;
+  opacity: 1;
+}
+
+/* Media Query */
+
+@media screen and (max-width: 780px) {
+  .cpt {
+    padding-top: 70px;
+  }
+  /* top bar */
+  .top-bar-section {
+    display: none;
+  }
+  /* top bar */
+
+  /* hero section */
+  .banner h1 {
+    font-size: 25px;
+  }
+  .banner p {
+    font-size: 15px;
+  }
+
+  .banner .btn-sect p .pen-icon {
+    font-size: 20px;
+  }
+  .custom-d-n {
+    display: none;
+  }
+  .banner.custom-btn {
+    padding: 4px 20px;
+    font-size: 14px;
+  }
+  .banner.custom-btn:hover {
+    padding: 4px 18px;
+    font-size: 14px;
+  }
+  .banner {
+    background-image: url("../source/marketing-1.png"),
+      linear-gradient(
+        to right,
+        rgb(4, 4, 48, 1),
+        rgb(4, 4, 48, 0.8),
+        rgb(23, 120, 242, 0.3),
+        rgb(23, 120, 242, 0.1)
+      );
+
+    height: 40vh;
+  }
+  /* hero section */
+
+  /* whay choose us */
+  .icon svg {
+    fill: #1778f2;
+    width: 55px;
+  }
+  .choose-us-section .card-body {
+    text-align: center;
+  }
+  .choose-us-section .card-body .card-title {
+    font-size: 33px;
+  }
+  .choose-us-section .card-body .card-text {
+    font-size: 15px;
+  }
+  /* why choose us */
+
+  /* about us */
+  .custom-col {
+    height: 50vh;
+    border-radius: 10px;
+  }
+
+  .about-us-section .header {
+    font-size: 20px;
+  }
+  .about-us-section .text {
+    font-size: 15px;
+  }
+
+  .about-us-section .custom-btn {
+    font-size: 14px;
+    padding: 4px 20px;
+  }
+  .about-us-section .custom-btn:hover {
+    font-size: 14px;
+    padding: 4px 18px;
+  }
+  .services .card .custom-btn {
+    font-size: 14px;
+    padding: 4px 20px;
+  }
+  .services .card .custom-btn:hover {
+    font-size: 14px;
+    padding: 4px 18px;
+  }
+  /* about us */
+
+  /* services */
+  .our-services-section .header {
+    font-size: 26px;
+  }
+
+  .services .card {
+    padding: 25px 17px;
+    border: 0;
+  }
+
+  .services .card .custom-btn {
+    font-size: 14px;
+    padding: 4px 20px;
+  }
+  .services .card .custom-btn:hover {
+    font-size: 14px;
+    padding: 4px 18px;
+  }
+  .services .icon svg {
+    width: 45px;
+  }
+  .services .card-title {
+    font-size: 18px;
+  }
+  .services .card-text {
+    font-size: 15px;
+  }
+  /* services */
+
+  /* Our clients section Start */
+  .client-section {
+    padding-top: 60px;
+  }
+  .client-section .cu-header {
+    text-align: center;
+  }
+  .client-section .cu-header span {
+    font-size: 15px;
+  }
+  .client-section .client-wrapper {
+    background: #eff6ff;
+    border-radius: 10px;
+    padding: 60px 60px;
+  }
+  .client-section .client img {
+    height: 50px;
+    width: 60px;
+  }
+
+  /* What we do section Start */
+  .what-we-do-section .header h1 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.25;
+    margin-top: 5px;
+  }
+
+  .what-we-do-section .do-top hr {
+    width: 25%;
+    margin-right: 0.9rem;
+    margin-bottom: -5px;
+  }
+  .what-we-do-section .do-top span {
+    font-size: 40px;
+  }
+  .what-we-do-section p .span {
+    font-size: 15px;
+  }
+  .what-we-do-section p {
+    font-size: 15px;
+  }
+  .what-we-do-section .cm {
+    margin-top: 1.8rem;
+  }
+  /* What we do section End */
+  /* Contact us section Start */
+  .contact-us-section .contact-wrap .cu-header {
+    text-align: center;
+  }
+
+  .contact-us-section .contact-wrap .header {
+    margin-bottom: 1.5rem;
+  }
+  .contact-us-section .contact-wrap .header h1 {
+    font-size: 28px;
+    font-weight: 600;
+  }
+  .contact-us-section .contact-wrap p {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 2rem;
+  }
+  .contact-us-section .contact-wrap button {
+    padding: 4px 20px;
+    margin-top: 10px;
+  }
+  .contact-us-section .contact-wrap button:hover {
+    padding: 4px 18px;
+  }
+
+  .contact-us-section .c-hr {
+    margin: 3rem 0;
+  }
+
+  /* Contact us section End */
+  /* Footer Section Start */
+  .footer-wrap .logo img {
+    width: 140px;
+    margin: auto;
+    display: block;
+  }
+  .footer-wrap .header h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #040430;
+  }
+  .footer-section ul {
+    list-style: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+  }
+  .footer-section ul li a {
+    text-decoration: none;
+    color: #616161;
+  }
+
+  .footer-section ul li {
+    /* background: #000; */
+    margin: 8px 0px;
+  }
+
+  .social-icon ul li a {
+    padding: 4px 10px;
+    border-radius: 40%;
+  }
+  /* Footer Section End */
+
+  /* Copyrights section Start */
+  .copyright-section .top-bar p {
+    font-size: 14px;
+  }
+  /* Copyrights section End */
+  /* Modal */
+  .modal-section .mb-3 {
+    margin-bottom: 0.5rem !important;
+  }
+
+  .modal-section .modal-header .modal-title {
+    font-size: 22px;
+    font-weight: 500;
+    color: #1778f2;
+  }
+  .modal-section .modal-desc p {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  .modal-body label {
+    font-size: 14px;
+  }
+  .modal-section .modal-content .cl-btn {
+    padding: 4px 20px;
+    font-size: 15px;
+  }
+  .modal-section .modal-content .sm-btn {
+    padding: 4px 20px;
+    font-size: 14px;
+  }
+  .modal-section .modal-content .cl-btn:hover {
+    padding: 4px 18px;
+  }
+  .modal-section .modal-content .sm-btn:hover {
+    padding: 4px 18px;
+  }
+  /* modal */
+}
