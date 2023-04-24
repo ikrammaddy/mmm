@@ -954,6 +954,7 @@ nav.sticky {
   }
   .what-we-do-section p {
     font-size: 15px;
+    max-width: 150px;
   }
   .what-we-do-section .cm {
     margin-top: 1.8rem;
