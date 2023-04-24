@@ -800,9 +800,13 @@ nav.sticky {
   /* hero section */
   .banner h1 {
     font-size: 25px;
+    margin-bottom: 3.5rem;
   }
   .banner p {
     font-size: 15px;
+  }
+  .m-d-none{
+    display: none;
   }
 
   .banner .btn-sect p .pen-icon {
@@ -990,18 +994,30 @@ nav.sticky {
     width: 140px;
     margin: auto;
     display: block;
+    margin-bottom: 2rem;
   }
   .footer-wrap .header h3 {
     font-size: 18px;
     font-weight: 600;
     color: #040430;
+    text-align: center;
   }
   .footer-section ul {
     list-style: none;
     margin: 0;
     padding: 0px;
     overflow: hidden;
+    justify-content: center;
+
   }
+  .footer-section .contact li {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.footer-section .company li {
+  text-align: center;
+}
   .footer-section ul li a {
     text-decoration: none;
     color: #616161;
@@ -1055,5 +1071,6 @@ nav.sticky {
   .modal-section .modal-content .sm-btn:hover {
     padding: 4px 18px;
   }
+
   /* modal */
 }
